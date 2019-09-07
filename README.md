@@ -18,15 +18,17 @@ Additional clients can be added by creating a new implementation of the ChaosRes
 
 
 
-* Ruby version
+# Implementation
+
+## Ruby version
 Chaos API us set to function using Ruby 2.5.0.
 
-* System dependencies
+## System dependencies
 In an effort to keep the system as light-weight as possible, the app does not have any DB dependencies. It uses Nokogiri to do XML generation, but that should be the only complex gem is uses. 
 
-* Deployment instructions
+## Deployment instructions
 The Chaos API can easily be pulled down and run locally for teams or organizations that would like to. 
 I am also working to host a version of it in Heroku for teams that just want to write the client code and not mess with their own server. If you have using the API in low volume and do not have a need to add custom code then this can be a good choice. 
 For those organizations that want to use it under high-volume, I recommend running a local copy. 
 
-* ...
+
