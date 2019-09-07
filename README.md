@@ -16,8 +16,6 @@ Some examples include
 
 Additional clients can be added by creating a new implementation of the ChaosResponse class and adding it to the array in the ChaosService. 
 
-
-
 # Implementation
 
 ## Ruby version
