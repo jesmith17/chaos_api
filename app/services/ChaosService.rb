@@ -2,8 +2,8 @@ class ChaosService
 
 
 
-@responses = [SuccessResponse, UnauthorizedResponse, SlowResponse]
-
+# @responses = [SuccessResponse, UnauthorizedResponse, SlowResponse,ErrorResponse, LargePayloadResponse, TimeoutResponse]
+@responses = [XMLDataResponse]
 
 def self.getResponse
   i = rand(@responses.size)

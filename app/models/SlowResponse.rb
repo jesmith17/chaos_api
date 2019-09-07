@@ -1,8 +1,5 @@
 class SlowResponse < ChaosResponse
 
-
-
-
     def body
 
         sleep(45.seconds)
