@@ -1,10 +1,6 @@
 class XMLDataResponse < ChaosResponse
 
 
-    def format
-        return json
-    end
-    
     def body
 
         builder = Nokogiri::XML::Builder.new do |xml|

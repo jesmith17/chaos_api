@@ -2,7 +2,7 @@ class ChaosService
 
 
 
-@responses = [SuccessResponse, UnauthorizedResponse, SlowResponse,ErrorResponse, LargePayloadResponse, TimeoutResponse,XMLDataResponse]
+@responses = [SuccessResponse, UnauthorizedResponse, SlowResponse, NotFoundResponse, ErrorResponse, LargePayloadResponse, TimeoutResponse,XMLDataResponse]
 
 
 def self.getResponse

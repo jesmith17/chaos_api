@@ -1,10 +1,6 @@
 class NotFoundResponse < ChaosResponse
 
 
-    def format
-        return json
-    end
-    
     def body
         return nil
     end

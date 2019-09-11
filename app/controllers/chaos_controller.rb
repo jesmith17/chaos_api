@@ -5,8 +5,14 @@ class ChaosController < ApplicationController
   def index
     
     response = ChaosService.getResponse
-
-    render  json: response.body, status: response.status
+    if response.format == 'json'
+      render json: response.body, status: response.status
+    elsif response.format == 'xml'
+      render json: response.body, status: response.status
+    else 
+      render html: response.body, status: response.status
+    end
+    
   end
 
   # GET /chaos/1
