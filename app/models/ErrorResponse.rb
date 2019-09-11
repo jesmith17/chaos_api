@@ -10,7 +10,7 @@ class ErrorResponse < ChaosResponse
     end
     
     def status
-        return :created
+        return :internal_server_error
     end   
     
 
