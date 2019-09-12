@@ -2,7 +2,7 @@ class ChaosResponse
 
 
     def format
-        return json
+        return 'json'
     end
     
     def body
